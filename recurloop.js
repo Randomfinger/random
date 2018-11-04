@@ -4,7 +4,7 @@ Eine Endlosschleife die randomstrings mit start und stopp markern produziert
 
 */
 var R = require('./RandomJS')
-var EL = require('../string/entferneLeer')
+var EL = require('./entferneLeer')
 var self = {c:-1, start:'', stop:'0',body:['sa','so']}
 var alph = `aäbcdefghijklmnoöpqrstuüvwxyz`
 var num = `0123456789`
